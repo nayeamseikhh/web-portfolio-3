@@ -44,4 +44,17 @@ section{
     border-radius: 5px;
     font-weight: 700;
 }
+.one-third-width{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+.one-third-width #pic{
+    width: 100%;
+    height: 500px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.my-work-portfolio{
+  
 }
