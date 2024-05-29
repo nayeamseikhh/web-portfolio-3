@@ -65,6 +65,8 @@ section{
     color: white;
     padding: 20px 20px 20px 20px;
     border-radius: 10px;
-
     
+}
+.last{
+    background-image: url(imeges/footer-bg.png);
 }
