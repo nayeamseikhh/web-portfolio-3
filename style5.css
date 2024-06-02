@@ -1,3 +1,21 @@
-.video{
-    width: 50%;
+div {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    animation-name: nayeam;
+    position: relative;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes nayeam {
+    0%  {background-color: blueviolet; left: 0px; top: 0%;}
+    15% {background-color: bisque; left: 200px; top: 0px;}
+    30% {background-color: brown; left: 200px; top: 200px;}
+    45% {background-color: salmon; left: 0px; top: 200px;}
+    60% {background-color: black; left: 0px; top: 200px;}
+    75% {background-color: tomato; left: 200px; top: 0px;}
+    95% {background-color: green; left: 0px; top: 200px;}
+    100%{background-color: yellow; left: 0px; top: 0px;}
 }
