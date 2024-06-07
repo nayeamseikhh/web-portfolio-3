@@ -1,0 +1,13 @@
+.box{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.box2{
+    height: 400px;
+    width: 400px;
+    border: 1px solid blue;
+    margin-top: 10px;
+    overflow: auto;
+}
